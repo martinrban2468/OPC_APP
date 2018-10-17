@@ -31,7 +31,7 @@ Partial Class DataOverview
         Me.Button1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(703, 192)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(75, 29)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Quit"
         Me.Button1.UseVisualStyleBackColor = True
@@ -41,7 +41,7 @@ Partial Class DataOverview
         Me.Button2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(703, 153)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(75, 29)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Setup"
         Me.Button2.UseVisualStyleBackColor = True

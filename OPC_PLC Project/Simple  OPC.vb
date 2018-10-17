@@ -1143,8 +1143,9 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_9.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemName_9.Size = New System.Drawing.Size(185, 20)
         Me.OPCItemName_9.TabIndex = 109
-        Me.OPCItemName_9.Text = "Channel1.Device1.R12@Float"
-        Me.ToolTip1.SetToolTip(Me.OPCItemName_9, "Enter an OPC Item name in the form of ServerBranch.ServerItem")
+        Me.OPCItemName_9.Text = "OPCItemName_9"
+        Me.ToolTip1.SetToolTip(Me.OPCItemName_9, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
         '
         'OPCItemName_8
         '
@@ -1160,8 +1161,9 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_8.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemName_8.Size = New System.Drawing.Size(185, 20)
         Me.OPCItemName_8.TabIndex = 108
-        Me.OPCItemName_8.Text = "Channel1.Device1.R10@Float"
-        Me.ToolTip1.SetToolTip(Me.OPCItemName_8, "Enter an OPC Item name in the form of ServerBranch.ServerItem")
+        Me.OPCItemName_8.Text = "OPCItemName_8"
+        Me.ToolTip1.SetToolTip(Me.OPCItemName_8, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
         '
         'OPCItemName_7
         '
@@ -1177,8 +1179,9 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_7.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemName_7.Size = New System.Drawing.Size(185, 20)
         Me.OPCItemName_7.TabIndex = 107
-        Me.OPCItemName_7.Text = "Channel1.Device1.R8@Dword"
-        Me.ToolTip1.SetToolTip(Me.OPCItemName_7, "Enter an OPC Item name in the form of ServerBranch.ServerItem")
+        Me.OPCItemName_7.Text = "OPCItemName_7"
+        Me.ToolTip1.SetToolTip(Me.OPCItemName_7, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
         '
         'OPCItemName_6
         '
@@ -1194,8 +1197,9 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_6.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemName_6.Size = New System.Drawing.Size(185, 20)
         Me.OPCItemName_6.TabIndex = 106
-        Me.OPCItemName_6.Text = "Channel1.Device1.R6@Long"
-        Me.ToolTip1.SetToolTip(Me.OPCItemName_6, "Enter an OPC Item name in the form of ServerBranch.ServerItem")
+        Me.OPCItemName_6.Text = "OPCItemName_6"
+        Me.ToolTip1.SetToolTip(Me.OPCItemName_6, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
         '
         'OPCItemName_5
         '
@@ -1211,8 +1215,9 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_5.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemName_5.Size = New System.Drawing.Size(185, 20)
         Me.OPCItemName_5.TabIndex = 105
-        Me.OPCItemName_5.Text = "Channel1.Device1.R5"
-        Me.ToolTip1.SetToolTip(Me.OPCItemName_5, "Enter an OPC Item name in the form of ServerBranch.ServerItem")
+        Me.OPCItemName_5.Text = "OPCItemName_5"
+        Me.ToolTip1.SetToolTip(Me.OPCItemName_5, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
         '
         'OPCItemName_4
         '
@@ -1228,8 +1233,9 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_4.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemName_4.Size = New System.Drawing.Size(185, 20)
         Me.OPCItemName_4.TabIndex = 104
-        Me.OPCItemName_4.Text = "Channel1.Device1.R4"
-        Me.ToolTip1.SetToolTip(Me.OPCItemName_4, "Enter an OPC Item name in the form of ServerBranch.ServerItem")
+        Me.OPCItemName_4.Text = "OPCItemName_4"
+        Me.ToolTip1.SetToolTip(Me.OPCItemName_4, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
         '
         'OPCItemName_3
         '
@@ -1245,8 +1251,9 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_3.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemName_3.Size = New System.Drawing.Size(185, 20)
         Me.OPCItemName_3.TabIndex = 103
-        Me.OPCItemName_3.Text = "Channel1.Device1.R3"
-        Me.ToolTip1.SetToolTip(Me.OPCItemName_3, "Enter an OPC Item name in the form of ServerBranch.ServerItem")
+        Me.OPCItemName_3.Text = "OPCItemName_3"
+        Me.ToolTip1.SetToolTip(Me.OPCItemName_3, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
         '
         'OPCItemName_2
         '
@@ -1262,8 +1269,9 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_2.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemName_2.Size = New System.Drawing.Size(185, 20)
         Me.OPCItemName_2.TabIndex = 102
-        Me.OPCItemName_2.Text = "Channel1.Device1.R2"
-        Me.ToolTip1.SetToolTip(Me.OPCItemName_2, "Enter an OPC Item name in the form of ServerBranch.ServerItem")
+        Me.OPCItemName_2.Text = "OPCItemName_2"
+        Me.ToolTip1.SetToolTip(Me.OPCItemName_2, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'OPCItemName_1
         '
@@ -1279,8 +1287,9 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemName_1.Size = New System.Drawing.Size(185, 20)
         Me.OPCItemName_1.TabIndex = 101
-        Me.OPCItemName_1.Text = "Channel1.Device1.R1"
-        Me.ToolTip1.SetToolTip(Me.OPCItemName_1, "Enter an OPC Item name in the form of ServerBranch.ServerItem")
+        Me.OPCItemName_1.Text = "OPCItemName_1"
+        Me.ToolTip1.SetToolTip(Me.OPCItemName_1, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'OPCItemName_0
         '
@@ -1296,8 +1305,9 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_0.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemName_0.Size = New System.Drawing.Size(185, 20)
         Me.OPCItemName_0.TabIndex = 100
-        Me.OPCItemName_0.Text = "Channel1.Device1.R0"
-        Me.ToolTip1.SetToolTip(Me.OPCItemName_0, "Enter an OPC Item name in the form of ServerBranch.ServerItem")
+        Me.OPCItemName_0.Text = "OPCItemName_0"
+        Me.ToolTip1.SetToolTip(Me.OPCItemName_0, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
         '
         'OPCServerName
         '
@@ -1654,7 +1664,7 @@ Public Class SimpleOPCInterface
         Me.ExitExample.Location = New System.Drawing.Point(642, 99)
         Me.ExitExample.Name = "ExitExample"
         Me.ExitExample.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.ExitExample.Size = New System.Drawing.Size(106, 23)
+        Me.ExitExample.Size = New System.Drawing.Size(106, 29)
         Me.ExitExample.TabIndex = 98
         Me.ExitExample.Text = "Quit"
         Me.ExitExample.UseVisualStyleBackColor = False
@@ -1802,7 +1812,7 @@ Public Class SimpleOPCInterface
         Me.Button1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(642, 67)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(106, 23)
+        Me.Button1.Size = New System.Drawing.Size(106, 29)
         Me.Button1.TabIndex = 166
         Me.Button1.Text = "Data Overview"
         Me.Button1.UseVisualStyleBackColor = True
@@ -2989,6 +2999,10 @@ Public Class SimpleOPCInterface
         Me.Hide()
 
         DataOverview.Show()
+
+    End Sub
+
+    Private Sub OPCItemName_0_TextChanged(sender As Object, e As EventArgs) Handles OPCItemName_0.TextChanged
 
     End Sub
 End Class

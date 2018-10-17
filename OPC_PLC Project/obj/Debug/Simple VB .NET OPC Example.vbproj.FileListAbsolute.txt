@@ -27,3 +27,7 @@ C:\Users\usbanuelma\Dropbox\VB.NET Projects\OPC_PLC Project\obj\Debug\Simple_VS2
 C:\Users\usbanuelma\Dropbox\VB.NET Projects\OPC_PLC Project\obj\Debug\Simple_VS2010_VB_.NET_OPC_Example.Splash.resources
 C:\Users\usbanuelma\Dropbox\VB.NET Projects\OPC_PLC Project\obj\Debug\Simple VB .NET OPC Example.vbproj.GenerateResource.Cache
 C:\Users\usbanuelma\Dropbox\VB.NET Projects\OPC_PLC Project\obj\Debug\Simple_VS2010_VB_.NET_OPC_Example.DataOverview.resources
+C:\Users\usbanuelma\Source\Repos\OPC_APP\OPC_PLC Project\obj\Debug\Simple VB .NET OPC Example.vbproj.ResolveComReference.cache
+C:\Users\usbanuelma\Source\Repos\OPC_APP\OPC_PLC Project\obj\Debug\Simple VS2010 VB .NET OPC Example.exe
+C:\Users\usbanuelma\Source\Repos\OPC_APP\OPC_PLC Project\obj\Debug\Simple VS2010 VB .NET OPC Example.xml
+C:\Users\usbanuelma\Source\Repos\OPC_APP\OPC_PLC Project\obj\Debug\Simple VS2010 VB .NET OPC Example.pdb
