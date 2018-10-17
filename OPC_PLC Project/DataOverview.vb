@@ -7,15 +7,12 @@
         SimpleOPCInterface.Show()
 
     End Sub
-    Private Sub testrotate()
-        RotateFlipType
+
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+        SimpleOPCInterface.Show()
     End Sub
 
-    Private Sub OvalShape1_Click(sender As Object, e As EventArgs) Handles OvalShape1.Click
-
-    End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        SimpleOPCInterface.ExitApp()
     End Sub
 End Class

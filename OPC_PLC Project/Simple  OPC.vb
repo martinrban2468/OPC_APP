@@ -107,7 +107,6 @@ Public Class SimpleOPCInterface
     Public WithEvents Label6 As System.Windows.Forms.Label
     Public WithEvents Label5 As System.Windows.Forms.Label
     Public WithEvents Label1 As System.Windows.Forms.Label
-    Public WithEvents ExitExample As System.Windows.Forms.Button
     Public WithEvents Frame1 As System.Windows.Forms.GroupBox
     Public WithEvents OPCNodeName As System.Windows.Forms.TextBox
     Public WithEvents DisconnectFromServer As System.Windows.Forms.Button
@@ -124,6 +123,17 @@ Public Class SimpleOPCInterface
     Public WithEvents Label8 As System.Windows.Forms.Label
     Public WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Button1 As Button
+    Public WithEvents Label2 As Label
+    Public WithEvents OPCItemDesc_6 As TextBox
+    Public WithEvents OPCItemDesc_0 As TextBox
+    Public WithEvents OPCItemDesc_1 As TextBox
+    Public WithEvents OPCItemDesc_2 As TextBox
+    Public WithEvents OPCItemDesc_3 As TextBox
+    Public WithEvents OPCItemDesc_4 As TextBox
+    Public WithEvents OPCItemDesc_5 As TextBox
+    Public WithEvents OPCItemDesc_7 As TextBox
+    Public WithEvents OPCItemDesc_8 As TextBox
+    Public WithEvents OPCItemDesc_9 As TextBox
     Public WithEvents Label4 As System.Windows.Forms.Label
     <System.Diagnostics.DebuggerStepThrough()> Public Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
@@ -210,14 +220,24 @@ Public Class SimpleOPCInterface
         Me.OPCItemActiveState_0 = New System.Windows.Forms.CheckBox()
         Me.OPCItemWriteButton_0 = New System.Windows.Forms.Button()
         Me.OPCItemValueToWrite_0 = New System.Windows.Forms.TextBox()
+        Me.OPCItemDesc_6 = New System.Windows.Forms.TextBox()
+        Me.OPCItemDesc_0 = New System.Windows.Forms.TextBox()
+        Me.OPCItemDesc_1 = New System.Windows.Forms.TextBox()
+        Me.OPCItemDesc_2 = New System.Windows.Forms.TextBox()
+        Me.OPCItemDesc_3 = New System.Windows.Forms.TextBox()
+        Me.OPCItemDesc_4 = New System.Windows.Forms.TextBox()
+        Me.OPCItemDesc_5 = New System.Windows.Forms.TextBox()
+        Me.OPCItemDesc_7 = New System.Windows.Forms.TextBox()
+        Me.OPCItemDesc_8 = New System.Windows.Forms.TextBox()
+        Me.OPCItemDesc_9 = New System.Windows.Forms.TextBox()
         Me.OPCGroupFrame = New System.Windows.Forms.GroupBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ExitExample = New System.Windows.Forms.Button()
         Me.Frame1 = New System.Windows.Forms.GroupBox()
         Me.lblOPCNodeName = New System.Windows.Forms.Label()
         Me.Frame2 = New System.Windows.Forms.GroupBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.OPCItemQuality_0 = New System.Windows.Forms.TextBox()
         Me.OPCItemValue_0 = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -237,7 +257,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemSyncReadButton_9.Enabled = False
         Me.OPCItemSyncReadButton_9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemSyncReadButton_9.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemSyncReadButton_9.Location = New System.Drawing.Point(580, 517)
+        Me.OPCItemSyncReadButton_9.Location = New System.Drawing.Point(777, 517)
         Me.OPCItemSyncReadButton_9.Name = "OPCItemSyncReadButton_9"
         Me.OPCItemSyncReadButton_9.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemSyncReadButton_9.Size = New System.Drawing.Size(72, 28)
@@ -253,7 +273,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemSyncReadButton_8.Enabled = False
         Me.OPCItemSyncReadButton_8.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemSyncReadButton_8.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemSyncReadButton_8.Location = New System.Drawing.Point(580, 488)
+        Me.OPCItemSyncReadButton_8.Location = New System.Drawing.Point(777, 488)
         Me.OPCItemSyncReadButton_8.Name = "OPCItemSyncReadButton_8"
         Me.OPCItemSyncReadButton_8.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemSyncReadButton_8.Size = New System.Drawing.Size(72, 28)
@@ -269,7 +289,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemSyncReadButton_7.Enabled = False
         Me.OPCItemSyncReadButton_7.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemSyncReadButton_7.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemSyncReadButton_7.Location = New System.Drawing.Point(580, 459)
+        Me.OPCItemSyncReadButton_7.Location = New System.Drawing.Point(777, 459)
         Me.OPCItemSyncReadButton_7.Name = "OPCItemSyncReadButton_7"
         Me.OPCItemSyncReadButton_7.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemSyncReadButton_7.Size = New System.Drawing.Size(72, 28)
@@ -285,7 +305,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemSyncReadButton_6.Enabled = False
         Me.OPCItemSyncReadButton_6.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemSyncReadButton_6.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemSyncReadButton_6.Location = New System.Drawing.Point(580, 430)
+        Me.OPCItemSyncReadButton_6.Location = New System.Drawing.Point(777, 430)
         Me.OPCItemSyncReadButton_6.Name = "OPCItemSyncReadButton_6"
         Me.OPCItemSyncReadButton_6.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemSyncReadButton_6.Size = New System.Drawing.Size(72, 28)
@@ -301,7 +321,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemSyncReadButton_5.Enabled = False
         Me.OPCItemSyncReadButton_5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemSyncReadButton_5.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemSyncReadButton_5.Location = New System.Drawing.Point(580, 401)
+        Me.OPCItemSyncReadButton_5.Location = New System.Drawing.Point(777, 401)
         Me.OPCItemSyncReadButton_5.Name = "OPCItemSyncReadButton_5"
         Me.OPCItemSyncReadButton_5.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemSyncReadButton_5.Size = New System.Drawing.Size(72, 28)
@@ -317,7 +337,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemSyncReadButton_4.Enabled = False
         Me.OPCItemSyncReadButton_4.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemSyncReadButton_4.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemSyncReadButton_4.Location = New System.Drawing.Point(580, 372)
+        Me.OPCItemSyncReadButton_4.Location = New System.Drawing.Point(777, 372)
         Me.OPCItemSyncReadButton_4.Name = "OPCItemSyncReadButton_4"
         Me.OPCItemSyncReadButton_4.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemSyncReadButton_4.Size = New System.Drawing.Size(72, 28)
@@ -333,7 +353,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemSyncReadButton_3.Enabled = False
         Me.OPCItemSyncReadButton_3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemSyncReadButton_3.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemSyncReadButton_3.Location = New System.Drawing.Point(580, 343)
+        Me.OPCItemSyncReadButton_3.Location = New System.Drawing.Point(777, 343)
         Me.OPCItemSyncReadButton_3.Name = "OPCItemSyncReadButton_3"
         Me.OPCItemSyncReadButton_3.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemSyncReadButton_3.Size = New System.Drawing.Size(72, 28)
@@ -349,7 +369,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemSyncReadButton_2.Enabled = False
         Me.OPCItemSyncReadButton_2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemSyncReadButton_2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemSyncReadButton_2.Location = New System.Drawing.Point(580, 314)
+        Me.OPCItemSyncReadButton_2.Location = New System.Drawing.Point(777, 314)
         Me.OPCItemSyncReadButton_2.Name = "OPCItemSyncReadButton_2"
         Me.OPCItemSyncReadButton_2.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemSyncReadButton_2.Size = New System.Drawing.Size(72, 28)
@@ -365,7 +385,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemSyncReadButton_1.Enabled = False
         Me.OPCItemSyncReadButton_1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemSyncReadButton_1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemSyncReadButton_1.Location = New System.Drawing.Point(580, 287)
+        Me.OPCItemSyncReadButton_1.Location = New System.Drawing.Point(777, 287)
         Me.OPCItemSyncReadButton_1.Name = "OPCItemSyncReadButton_1"
         Me.OPCItemSyncReadButton_1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemSyncReadButton_1.Size = New System.Drawing.Size(72, 28)
@@ -384,7 +404,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemActiveState_9.Enabled = False
         Me.OPCItemActiveState_9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemActiveState_9.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemActiveState_9.Location = New System.Drawing.Point(508, 523)
+        Me.OPCItemActiveState_9.Location = New System.Drawing.Point(705, 523)
         Me.OPCItemActiveState_9.Name = "OPCItemActiveState_9"
         Me.OPCItemActiveState_9.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemActiveState_9.Size = New System.Drawing.Size(57, 17)
@@ -403,7 +423,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemActiveState_8.Enabled = False
         Me.OPCItemActiveState_8.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemActiveState_8.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemActiveState_8.Location = New System.Drawing.Point(508, 494)
+        Me.OPCItemActiveState_8.Location = New System.Drawing.Point(705, 494)
         Me.OPCItemActiveState_8.Name = "OPCItemActiveState_8"
         Me.OPCItemActiveState_8.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemActiveState_8.Size = New System.Drawing.Size(57, 17)
@@ -422,7 +442,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemActiveState_7.Enabled = False
         Me.OPCItemActiveState_7.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemActiveState_7.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemActiveState_7.Location = New System.Drawing.Point(508, 465)
+        Me.OPCItemActiveState_7.Location = New System.Drawing.Point(705, 465)
         Me.OPCItemActiveState_7.Name = "OPCItemActiveState_7"
         Me.OPCItemActiveState_7.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemActiveState_7.Size = New System.Drawing.Size(57, 17)
@@ -441,7 +461,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemActiveState_6.Enabled = False
         Me.OPCItemActiveState_6.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemActiveState_6.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemActiveState_6.Location = New System.Drawing.Point(508, 436)
+        Me.OPCItemActiveState_6.Location = New System.Drawing.Point(705, 436)
         Me.OPCItemActiveState_6.Name = "OPCItemActiveState_6"
         Me.OPCItemActiveState_6.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemActiveState_6.Size = New System.Drawing.Size(57, 17)
@@ -460,7 +480,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemActiveState_5.Enabled = False
         Me.OPCItemActiveState_5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemActiveState_5.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemActiveState_5.Location = New System.Drawing.Point(508, 407)
+        Me.OPCItemActiveState_5.Location = New System.Drawing.Point(705, 407)
         Me.OPCItemActiveState_5.Name = "OPCItemActiveState_5"
         Me.OPCItemActiveState_5.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemActiveState_5.Size = New System.Drawing.Size(57, 17)
@@ -479,7 +499,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemActiveState_4.Enabled = False
         Me.OPCItemActiveState_4.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemActiveState_4.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemActiveState_4.Location = New System.Drawing.Point(508, 378)
+        Me.OPCItemActiveState_4.Location = New System.Drawing.Point(705, 378)
         Me.OPCItemActiveState_4.Name = "OPCItemActiveState_4"
         Me.OPCItemActiveState_4.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemActiveState_4.Size = New System.Drawing.Size(57, 17)
@@ -498,7 +518,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemActiveState_3.Enabled = False
         Me.OPCItemActiveState_3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemActiveState_3.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemActiveState_3.Location = New System.Drawing.Point(508, 349)
+        Me.OPCItemActiveState_3.Location = New System.Drawing.Point(705, 349)
         Me.OPCItemActiveState_3.Name = "OPCItemActiveState_3"
         Me.OPCItemActiveState_3.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemActiveState_3.Size = New System.Drawing.Size(57, 17)
@@ -517,7 +537,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemActiveState_2.Enabled = False
         Me.OPCItemActiveState_2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemActiveState_2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemActiveState_2.Location = New System.Drawing.Point(508, 320)
+        Me.OPCItemActiveState_2.Location = New System.Drawing.Point(705, 320)
         Me.OPCItemActiveState_2.Name = "OPCItemActiveState_2"
         Me.OPCItemActiveState_2.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemActiveState_2.Size = New System.Drawing.Size(57, 17)
@@ -536,7 +556,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemActiveState_1.Enabled = False
         Me.OPCItemActiveState_1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemActiveState_1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemActiveState_1.Location = New System.Drawing.Point(508, 293)
+        Me.OPCItemActiveState_1.Location = New System.Drawing.Point(705, 293)
         Me.OPCItemActiveState_1.Name = "OPCItemActiveState_1"
         Me.OPCItemActiveState_1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemActiveState_1.Size = New System.Drawing.Size(57, 17)
@@ -552,7 +572,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemWriteButton_9.Enabled = False
         Me.OPCItemWriteButton_9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemWriteButton_9.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemWriteButton_9.Location = New System.Drawing.Point(428, 517)
+        Me.OPCItemWriteButton_9.Location = New System.Drawing.Point(625, 517)
         Me.OPCItemWriteButton_9.Name = "OPCItemWriteButton_9"
         Me.OPCItemWriteButton_9.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemWriteButton_9.Size = New System.Drawing.Size(72, 28)
@@ -568,7 +588,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemWriteButton_8.Enabled = False
         Me.OPCItemWriteButton_8.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemWriteButton_8.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemWriteButton_8.Location = New System.Drawing.Point(428, 488)
+        Me.OPCItemWriteButton_8.Location = New System.Drawing.Point(625, 488)
         Me.OPCItemWriteButton_8.Name = "OPCItemWriteButton_8"
         Me.OPCItemWriteButton_8.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemWriteButton_8.Size = New System.Drawing.Size(72, 28)
@@ -584,7 +604,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemWriteButton_7.Enabled = False
         Me.OPCItemWriteButton_7.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemWriteButton_7.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemWriteButton_7.Location = New System.Drawing.Point(428, 459)
+        Me.OPCItemWriteButton_7.Location = New System.Drawing.Point(625, 459)
         Me.OPCItemWriteButton_7.Name = "OPCItemWriteButton_7"
         Me.OPCItemWriteButton_7.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemWriteButton_7.Size = New System.Drawing.Size(72, 28)
@@ -600,7 +620,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemWriteButton_6.Enabled = False
         Me.OPCItemWriteButton_6.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemWriteButton_6.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemWriteButton_6.Location = New System.Drawing.Point(428, 430)
+        Me.OPCItemWriteButton_6.Location = New System.Drawing.Point(625, 430)
         Me.OPCItemWriteButton_6.Name = "OPCItemWriteButton_6"
         Me.OPCItemWriteButton_6.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemWriteButton_6.Size = New System.Drawing.Size(72, 28)
@@ -616,7 +636,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemWriteButton_5.Enabled = False
         Me.OPCItemWriteButton_5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemWriteButton_5.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemWriteButton_5.Location = New System.Drawing.Point(428, 401)
+        Me.OPCItemWriteButton_5.Location = New System.Drawing.Point(625, 401)
         Me.OPCItemWriteButton_5.Name = "OPCItemWriteButton_5"
         Me.OPCItemWriteButton_5.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemWriteButton_5.Size = New System.Drawing.Size(72, 28)
@@ -632,7 +652,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemWriteButton_4.Enabled = False
         Me.OPCItemWriteButton_4.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemWriteButton_4.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemWriteButton_4.Location = New System.Drawing.Point(428, 372)
+        Me.OPCItemWriteButton_4.Location = New System.Drawing.Point(625, 372)
         Me.OPCItemWriteButton_4.Name = "OPCItemWriteButton_4"
         Me.OPCItemWriteButton_4.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemWriteButton_4.Size = New System.Drawing.Size(72, 28)
@@ -648,7 +668,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemWriteButton_3.Enabled = False
         Me.OPCItemWriteButton_3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemWriteButton_3.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemWriteButton_3.Location = New System.Drawing.Point(428, 343)
+        Me.OPCItemWriteButton_3.Location = New System.Drawing.Point(625, 343)
         Me.OPCItemWriteButton_3.Name = "OPCItemWriteButton_3"
         Me.OPCItemWriteButton_3.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemWriteButton_3.Size = New System.Drawing.Size(72, 28)
@@ -664,7 +684,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemWriteButton_2.Enabled = False
         Me.OPCItemWriteButton_2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemWriteButton_2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemWriteButton_2.Location = New System.Drawing.Point(428, 314)
+        Me.OPCItemWriteButton_2.Location = New System.Drawing.Point(625, 314)
         Me.OPCItemWriteButton_2.Name = "OPCItemWriteButton_2"
         Me.OPCItemWriteButton_2.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemWriteButton_2.Size = New System.Drawing.Size(72, 28)
@@ -680,7 +700,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemWriteButton_1.Enabled = False
         Me.OPCItemWriteButton_1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemWriteButton_1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemWriteButton_1.Location = New System.Drawing.Point(428, 287)
+        Me.OPCItemWriteButton_1.Location = New System.Drawing.Point(625, 287)
         Me.OPCItemWriteButton_1.Name = "OPCItemWriteButton_1"
         Me.OPCItemWriteButton_1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemWriteButton_1.Size = New System.Drawing.Size(72, 28)
@@ -698,7 +718,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValueToWrite_9.Enabled = False
         Me.OPCItemValueToWrite_9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValueToWrite_9.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValueToWrite_9.Location = New System.Drawing.Point(316, 521)
+        Me.OPCItemValueToWrite_9.Location = New System.Drawing.Point(513, 521)
         Me.OPCItemValueToWrite_9.MaxLength = 0
         Me.OPCItemValueToWrite_9.Name = "OPCItemValueToWrite_9"
         Me.OPCItemValueToWrite_9.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -715,7 +735,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValueToWrite_8.Enabled = False
         Me.OPCItemValueToWrite_8.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValueToWrite_8.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValueToWrite_8.Location = New System.Drawing.Point(316, 492)
+        Me.OPCItemValueToWrite_8.Location = New System.Drawing.Point(513, 492)
         Me.OPCItemValueToWrite_8.MaxLength = 0
         Me.OPCItemValueToWrite_8.Name = "OPCItemValueToWrite_8"
         Me.OPCItemValueToWrite_8.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -732,7 +752,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValueToWrite_7.Enabled = False
         Me.OPCItemValueToWrite_7.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValueToWrite_7.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValueToWrite_7.Location = New System.Drawing.Point(316, 463)
+        Me.OPCItemValueToWrite_7.Location = New System.Drawing.Point(513, 463)
         Me.OPCItemValueToWrite_7.MaxLength = 0
         Me.OPCItemValueToWrite_7.Name = "OPCItemValueToWrite_7"
         Me.OPCItemValueToWrite_7.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -749,7 +769,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValueToWrite_6.Enabled = False
         Me.OPCItemValueToWrite_6.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValueToWrite_6.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValueToWrite_6.Location = New System.Drawing.Point(316, 434)
+        Me.OPCItemValueToWrite_6.Location = New System.Drawing.Point(513, 434)
         Me.OPCItemValueToWrite_6.MaxLength = 0
         Me.OPCItemValueToWrite_6.Name = "OPCItemValueToWrite_6"
         Me.OPCItemValueToWrite_6.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -766,7 +786,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValueToWrite_5.Enabled = False
         Me.OPCItemValueToWrite_5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValueToWrite_5.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValueToWrite_5.Location = New System.Drawing.Point(316, 405)
+        Me.OPCItemValueToWrite_5.Location = New System.Drawing.Point(513, 405)
         Me.OPCItemValueToWrite_5.MaxLength = 0
         Me.OPCItemValueToWrite_5.Name = "OPCItemValueToWrite_5"
         Me.OPCItemValueToWrite_5.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -783,7 +803,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValueToWrite_4.Enabled = False
         Me.OPCItemValueToWrite_4.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValueToWrite_4.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValueToWrite_4.Location = New System.Drawing.Point(316, 376)
+        Me.OPCItemValueToWrite_4.Location = New System.Drawing.Point(513, 376)
         Me.OPCItemValueToWrite_4.MaxLength = 0
         Me.OPCItemValueToWrite_4.Name = "OPCItemValueToWrite_4"
         Me.OPCItemValueToWrite_4.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -800,7 +820,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValueToWrite_3.Enabled = False
         Me.OPCItemValueToWrite_3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValueToWrite_3.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValueToWrite_3.Location = New System.Drawing.Point(316, 347)
+        Me.OPCItemValueToWrite_3.Location = New System.Drawing.Point(513, 347)
         Me.OPCItemValueToWrite_3.MaxLength = 0
         Me.OPCItemValueToWrite_3.Name = "OPCItemValueToWrite_3"
         Me.OPCItemValueToWrite_3.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -817,7 +837,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValueToWrite_2.Enabled = False
         Me.OPCItemValueToWrite_2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValueToWrite_2.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValueToWrite_2.Location = New System.Drawing.Point(316, 318)
+        Me.OPCItemValueToWrite_2.Location = New System.Drawing.Point(513, 318)
         Me.OPCItemValueToWrite_2.MaxLength = 0
         Me.OPCItemValueToWrite_2.Name = "OPCItemValueToWrite_2"
         Me.OPCItemValueToWrite_2.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -834,7 +854,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValueToWrite_1.Enabled = False
         Me.OPCItemValueToWrite_1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValueToWrite_1.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValueToWrite_1.Location = New System.Drawing.Point(316, 291)
+        Me.OPCItemValueToWrite_1.Location = New System.Drawing.Point(513, 291)
         Me.OPCItemValueToWrite_1.MaxLength = 0
         Me.OPCItemValueToWrite_1.Name = "OPCItemValueToWrite_1"
         Me.OPCItemValueToWrite_1.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -850,7 +870,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemQuality_9.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemQuality_9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemQuality_9.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemQuality_9.Location = New System.Drawing.Point(660, 521)
+        Me.OPCItemQuality_9.Location = New System.Drawing.Point(857, 521)
         Me.OPCItemQuality_9.MaxLength = 0
         Me.OPCItemQuality_9.Name = "OPCItemQuality_9"
         Me.OPCItemQuality_9.ReadOnly = True
@@ -865,7 +885,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemQuality_8.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemQuality_8.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemQuality_8.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemQuality_8.Location = New System.Drawing.Point(660, 492)
+        Me.OPCItemQuality_8.Location = New System.Drawing.Point(857, 492)
         Me.OPCItemQuality_8.MaxLength = 0
         Me.OPCItemQuality_8.Name = "OPCItemQuality_8"
         Me.OPCItemQuality_8.ReadOnly = True
@@ -880,7 +900,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemQuality_7.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemQuality_7.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemQuality_7.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemQuality_7.Location = New System.Drawing.Point(660, 463)
+        Me.OPCItemQuality_7.Location = New System.Drawing.Point(857, 463)
         Me.OPCItemQuality_7.MaxLength = 0
         Me.OPCItemQuality_7.Name = "OPCItemQuality_7"
         Me.OPCItemQuality_7.ReadOnly = True
@@ -895,7 +915,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemQuality_6.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemQuality_6.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemQuality_6.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemQuality_6.Location = New System.Drawing.Point(660, 434)
+        Me.OPCItemQuality_6.Location = New System.Drawing.Point(857, 434)
         Me.OPCItemQuality_6.MaxLength = 0
         Me.OPCItemQuality_6.Name = "OPCItemQuality_6"
         Me.OPCItemQuality_6.ReadOnly = True
@@ -910,7 +930,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemQuality_5.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemQuality_5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemQuality_5.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemQuality_5.Location = New System.Drawing.Point(660, 405)
+        Me.OPCItemQuality_5.Location = New System.Drawing.Point(857, 405)
         Me.OPCItemQuality_5.MaxLength = 0
         Me.OPCItemQuality_5.Name = "OPCItemQuality_5"
         Me.OPCItemQuality_5.ReadOnly = True
@@ -925,7 +945,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemQuality_4.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemQuality_4.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemQuality_4.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemQuality_4.Location = New System.Drawing.Point(660, 376)
+        Me.OPCItemQuality_4.Location = New System.Drawing.Point(857, 376)
         Me.OPCItemQuality_4.MaxLength = 0
         Me.OPCItemQuality_4.Name = "OPCItemQuality_4"
         Me.OPCItemQuality_4.ReadOnly = True
@@ -940,7 +960,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemQuality_3.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemQuality_3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemQuality_3.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemQuality_3.Location = New System.Drawing.Point(660, 347)
+        Me.OPCItemQuality_3.Location = New System.Drawing.Point(857, 347)
         Me.OPCItemQuality_3.MaxLength = 0
         Me.OPCItemQuality_3.Name = "OPCItemQuality_3"
         Me.OPCItemQuality_3.ReadOnly = True
@@ -955,7 +975,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemQuality_2.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemQuality_2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemQuality_2.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemQuality_2.Location = New System.Drawing.Point(660, 318)
+        Me.OPCItemQuality_2.Location = New System.Drawing.Point(857, 318)
         Me.OPCItemQuality_2.MaxLength = 0
         Me.OPCItemQuality_2.Name = "OPCItemQuality_2"
         Me.OPCItemQuality_2.ReadOnly = True
@@ -970,7 +990,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemQuality_1.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemQuality_1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemQuality_1.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemQuality_1.Location = New System.Drawing.Point(660, 291)
+        Me.OPCItemQuality_1.Location = New System.Drawing.Point(857, 291)
         Me.OPCItemQuality_1.MaxLength = 0
         Me.OPCItemQuality_1.Name = "OPCItemQuality_1"
         Me.OPCItemQuality_1.ReadOnly = True
@@ -985,7 +1005,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValue_9.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemValue_9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValue_9.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValue_9.Location = New System.Drawing.Point(212, 521)
+        Me.OPCItemValue_9.Location = New System.Drawing.Point(409, 521)
         Me.OPCItemValue_9.MaxLength = 0
         Me.OPCItemValue_9.Name = "OPCItemValue_9"
         Me.OPCItemValue_9.ReadOnly = True
@@ -1000,7 +1020,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValue_8.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemValue_8.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValue_8.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValue_8.Location = New System.Drawing.Point(212, 492)
+        Me.OPCItemValue_8.Location = New System.Drawing.Point(409, 492)
         Me.OPCItemValue_8.MaxLength = 0
         Me.OPCItemValue_8.Name = "OPCItemValue_8"
         Me.OPCItemValue_8.ReadOnly = True
@@ -1015,7 +1035,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValue_7.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemValue_7.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValue_7.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValue_7.Location = New System.Drawing.Point(212, 463)
+        Me.OPCItemValue_7.Location = New System.Drawing.Point(409, 463)
         Me.OPCItemValue_7.MaxLength = 0
         Me.OPCItemValue_7.Name = "OPCItemValue_7"
         Me.OPCItemValue_7.ReadOnly = True
@@ -1030,7 +1050,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValue_6.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemValue_6.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValue_6.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValue_6.Location = New System.Drawing.Point(212, 434)
+        Me.OPCItemValue_6.Location = New System.Drawing.Point(409, 434)
         Me.OPCItemValue_6.MaxLength = 0
         Me.OPCItemValue_6.Name = "OPCItemValue_6"
         Me.OPCItemValue_6.ReadOnly = True
@@ -1045,7 +1065,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValue_5.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemValue_5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValue_5.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValue_5.Location = New System.Drawing.Point(212, 405)
+        Me.OPCItemValue_5.Location = New System.Drawing.Point(409, 405)
         Me.OPCItemValue_5.MaxLength = 0
         Me.OPCItemValue_5.Name = "OPCItemValue_5"
         Me.OPCItemValue_5.ReadOnly = True
@@ -1060,7 +1080,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValue_4.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemValue_4.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValue_4.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValue_4.Location = New System.Drawing.Point(212, 376)
+        Me.OPCItemValue_4.Location = New System.Drawing.Point(409, 376)
         Me.OPCItemValue_4.MaxLength = 0
         Me.OPCItemValue_4.Name = "OPCItemValue_4"
         Me.OPCItemValue_4.ReadOnly = True
@@ -1075,7 +1095,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValue_3.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemValue_3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValue_3.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValue_3.Location = New System.Drawing.Point(212, 347)
+        Me.OPCItemValue_3.Location = New System.Drawing.Point(409, 347)
         Me.OPCItemValue_3.MaxLength = 0
         Me.OPCItemValue_3.Name = "OPCItemValue_3"
         Me.OPCItemValue_3.ReadOnly = True
@@ -1090,7 +1110,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValue_2.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemValue_2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValue_2.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValue_2.Location = New System.Drawing.Point(212, 318)
+        Me.OPCItemValue_2.Location = New System.Drawing.Point(409, 318)
         Me.OPCItemValue_2.MaxLength = 0
         Me.OPCItemValue_2.Name = "OPCItemValue_2"
         Me.OPCItemValue_2.ReadOnly = True
@@ -1105,7 +1125,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValue_1.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemValue_1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValue_1.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValue_1.Location = New System.Drawing.Point(212, 291)
+        Me.OPCItemValue_1.Location = New System.Drawing.Point(409, 291)
         Me.OPCItemValue_1.MaxLength = 0
         Me.OPCItemValue_1.Name = "OPCItemValue_1"
         Me.OPCItemValue_1.ReadOnly = True
@@ -1137,7 +1157,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_9.Enabled = False
         Me.OPCItemName_9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemName_9.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemName_9.Location = New System.Drawing.Point(20, 521)
+        Me.OPCItemName_9.Location = New System.Drawing.Point(200, 318)
         Me.OPCItemName_9.MaxLength = 0
         Me.OPCItemName_9.Name = "OPCItemName_9"
         Me.OPCItemName_9.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1155,7 +1175,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_8.Enabled = False
         Me.OPCItemName_8.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemName_8.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemName_8.Location = New System.Drawing.Point(20, 492)
+        Me.OPCItemName_8.Location = New System.Drawing.Point(200, 289)
         Me.OPCItemName_8.MaxLength = 0
         Me.OPCItemName_8.Name = "OPCItemName_8"
         Me.OPCItemName_8.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1173,7 +1193,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_7.Enabled = False
         Me.OPCItemName_7.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemName_7.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemName_7.Location = New System.Drawing.Point(20, 463)
+        Me.OPCItemName_7.Location = New System.Drawing.Point(200, 260)
         Me.OPCItemName_7.MaxLength = 0
         Me.OPCItemName_7.Name = "OPCItemName_7"
         Me.OPCItemName_7.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1191,7 +1211,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_6.Enabled = False
         Me.OPCItemName_6.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemName_6.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemName_6.Location = New System.Drawing.Point(20, 434)
+        Me.OPCItemName_6.Location = New System.Drawing.Point(200, 231)
         Me.OPCItemName_6.MaxLength = 0
         Me.OPCItemName_6.Name = "OPCItemName_6"
         Me.OPCItemName_6.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1209,7 +1229,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_5.Enabled = False
         Me.OPCItemName_5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemName_5.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemName_5.Location = New System.Drawing.Point(20, 405)
+        Me.OPCItemName_5.Location = New System.Drawing.Point(200, 202)
         Me.OPCItemName_5.MaxLength = 0
         Me.OPCItemName_5.Name = "OPCItemName_5"
         Me.OPCItemName_5.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1227,7 +1247,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_4.Enabled = False
         Me.OPCItemName_4.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemName_4.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemName_4.Location = New System.Drawing.Point(20, 376)
+        Me.OPCItemName_4.Location = New System.Drawing.Point(200, 173)
         Me.OPCItemName_4.MaxLength = 0
         Me.OPCItemName_4.Name = "OPCItemName_4"
         Me.OPCItemName_4.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1245,7 +1265,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_3.Enabled = False
         Me.OPCItemName_3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemName_3.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemName_3.Location = New System.Drawing.Point(20, 347)
+        Me.OPCItemName_3.Location = New System.Drawing.Point(200, 144)
         Me.OPCItemName_3.MaxLength = 0
         Me.OPCItemName_3.Name = "OPCItemName_3"
         Me.OPCItemName_3.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1263,7 +1283,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_2.Enabled = False
         Me.OPCItemName_2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemName_2.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemName_2.Location = New System.Drawing.Point(20, 318)
+        Me.OPCItemName_2.Location = New System.Drawing.Point(200, 115)
         Me.OPCItemName_2.MaxLength = 0
         Me.OPCItemName_2.Name = "OPCItemName_2"
         Me.OPCItemName_2.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1281,7 +1301,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_1.Enabled = False
         Me.OPCItemName_1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemName_1.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemName_1.Location = New System.Drawing.Point(20, 291)
+        Me.OPCItemName_1.Location = New System.Drawing.Point(200, 88)
         Me.OPCItemName_1.MaxLength = 0
         Me.OPCItemName_1.Name = "OPCItemName_1"
         Me.OPCItemName_1.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1299,7 +1319,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemName_0.Enabled = False
         Me.OPCItemName_0.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemName_0.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemName_0.Location = New System.Drawing.Point(20, 265)
+        Me.OPCItemName_0.Location = New System.Drawing.Point(200, 62)
         Me.OPCItemName_0.MaxLength = 0
         Me.OPCItemName_0.Name = "OPCItemName_0"
         Me.OPCItemName_0.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1531,7 +1551,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemSyncReadButton_0.Enabled = False
         Me.OPCItemSyncReadButton_0.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemSyncReadButton_0.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemSyncReadButton_0.Location = New System.Drawing.Point(568, 55)
+        Me.OPCItemSyncReadButton_0.Location = New System.Drawing.Point(765, 55)
         Me.OPCItemSyncReadButton_0.Name = "OPCItemSyncReadButton_0"
         Me.OPCItemSyncReadButton_0.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemSyncReadButton_0.Size = New System.Drawing.Size(72, 28)
@@ -1550,7 +1570,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemActiveState_0.Enabled = False
         Me.OPCItemActiveState_0.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemActiveState_0.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemActiveState_0.Location = New System.Drawing.Point(496, 62)
+        Me.OPCItemActiveState_0.Location = New System.Drawing.Point(693, 62)
         Me.OPCItemActiveState_0.Name = "OPCItemActiveState_0"
         Me.OPCItemActiveState_0.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemActiveState_0.Size = New System.Drawing.Size(57, 17)
@@ -1566,7 +1586,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemWriteButton_0.Enabled = False
         Me.OPCItemWriteButton_0.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemWriteButton_0.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.OPCItemWriteButton_0.Location = New System.Drawing.Point(416, 55)
+        Me.OPCItemWriteButton_0.Location = New System.Drawing.Point(613, 55)
         Me.OPCItemWriteButton_0.Name = "OPCItemWriteButton_0"
         Me.OPCItemWriteButton_0.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.OPCItemWriteButton_0.Size = New System.Drawing.Size(72, 28)
@@ -1584,7 +1604,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValueToWrite_0.Enabled = False
         Me.OPCItemValueToWrite_0.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValueToWrite_0.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValueToWrite_0.Location = New System.Drawing.Point(304, 62)
+        Me.OPCItemValueToWrite_0.Location = New System.Drawing.Point(501, 62)
         Me.OPCItemValueToWrite_0.MaxLength = 0
         Me.OPCItemValueToWrite_0.Name = "OPCItemValueToWrite_0"
         Me.OPCItemValueToWrite_0.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1592,6 +1612,186 @@ Public Class SimpleOPCInterface
         Me.OPCItemValueToWrite_0.TabIndex = 52
         Me.OPCItemValueToWrite_0.Text = "0"
         Me.ToolTip1.SetToolTip(Me.OPCItemValueToWrite_0, "Enter the value to written here then click the 'Write Value' button")
+        '
+        'OPCItemDesc_6
+        '
+        Me.OPCItemDesc_6.AcceptsReturn = True
+        Me.OPCItemDesc_6.BackColor = System.Drawing.SystemColors.Window
+        Me.OPCItemDesc_6.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.OPCItemDesc_6.Enabled = False
+        Me.OPCItemDesc_6.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OPCItemDesc_6.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.OPCItemDesc_6.Location = New System.Drawing.Point(6, 231)
+        Me.OPCItemDesc_6.MaxLength = 0
+        Me.OPCItemDesc_6.Name = "OPCItemDesc_6"
+        Me.OPCItemDesc_6.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.OPCItemDesc_6.Size = New System.Drawing.Size(185, 20)
+        Me.OPCItemDesc_6.TabIndex = 116
+        Me.OPCItemDesc_6.Text = "OPCItemDesc_6"
+        Me.ToolTip1.SetToolTip(Me.OPCItemDesc_6, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
+        '
+        'OPCItemDesc_0
+        '
+        Me.OPCItemDesc_0.AcceptsReturn = True
+        Me.OPCItemDesc_0.BackColor = System.Drawing.SystemColors.Window
+        Me.OPCItemDesc_0.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.OPCItemDesc_0.Enabled = False
+        Me.OPCItemDesc_0.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OPCItemDesc_0.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.OPCItemDesc_0.Location = New System.Drawing.Point(6, 62)
+        Me.OPCItemDesc_0.MaxLength = 0
+        Me.OPCItemDesc_0.Name = "OPCItemDesc_0"
+        Me.OPCItemDesc_0.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.OPCItemDesc_0.Size = New System.Drawing.Size(185, 20)
+        Me.OPCItemDesc_0.TabIndex = 110
+        Me.OPCItemDesc_0.Text = "OPCItemDesc_0"
+        Me.ToolTip1.SetToolTip(Me.OPCItemDesc_0, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
+        '
+        'OPCItemDesc_1
+        '
+        Me.OPCItemDesc_1.AcceptsReturn = True
+        Me.OPCItemDesc_1.BackColor = System.Drawing.SystemColors.Window
+        Me.OPCItemDesc_1.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.OPCItemDesc_1.Enabled = False
+        Me.OPCItemDesc_1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OPCItemDesc_1.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.OPCItemDesc_1.Location = New System.Drawing.Point(6, 88)
+        Me.OPCItemDesc_1.MaxLength = 0
+        Me.OPCItemDesc_1.Name = "OPCItemDesc_1"
+        Me.OPCItemDesc_1.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.OPCItemDesc_1.Size = New System.Drawing.Size(185, 20)
+        Me.OPCItemDesc_1.TabIndex = 111
+        Me.OPCItemDesc_1.Text = "OPCItemDesc_1"
+        Me.ToolTip1.SetToolTip(Me.OPCItemDesc_1, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'OPCItemDesc_2
+        '
+        Me.OPCItemDesc_2.AcceptsReturn = True
+        Me.OPCItemDesc_2.BackColor = System.Drawing.SystemColors.Window
+        Me.OPCItemDesc_2.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.OPCItemDesc_2.Enabled = False
+        Me.OPCItemDesc_2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OPCItemDesc_2.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.OPCItemDesc_2.Location = New System.Drawing.Point(6, 115)
+        Me.OPCItemDesc_2.MaxLength = 0
+        Me.OPCItemDesc_2.Name = "OPCItemDesc_2"
+        Me.OPCItemDesc_2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.OPCItemDesc_2.Size = New System.Drawing.Size(185, 20)
+        Me.OPCItemDesc_2.TabIndex = 112
+        Me.OPCItemDesc_2.Text = "OPCItemDesc_2"
+        Me.ToolTip1.SetToolTip(Me.OPCItemDesc_2, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'OPCItemDesc_3
+        '
+        Me.OPCItemDesc_3.AcceptsReturn = True
+        Me.OPCItemDesc_3.BackColor = System.Drawing.SystemColors.Window
+        Me.OPCItemDesc_3.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.OPCItemDesc_3.Enabled = False
+        Me.OPCItemDesc_3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OPCItemDesc_3.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.OPCItemDesc_3.Location = New System.Drawing.Point(6, 144)
+        Me.OPCItemDesc_3.MaxLength = 0
+        Me.OPCItemDesc_3.Name = "OPCItemDesc_3"
+        Me.OPCItemDesc_3.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.OPCItemDesc_3.Size = New System.Drawing.Size(185, 20)
+        Me.OPCItemDesc_3.TabIndex = 113
+        Me.OPCItemDesc_3.Text = "OPCItemDesc_3"
+        Me.ToolTip1.SetToolTip(Me.OPCItemDesc_3, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
+        '
+        'OPCItemDesc_4
+        '
+        Me.OPCItemDesc_4.AcceptsReturn = True
+        Me.OPCItemDesc_4.BackColor = System.Drawing.SystemColors.Window
+        Me.OPCItemDesc_4.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.OPCItemDesc_4.Enabled = False
+        Me.OPCItemDesc_4.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OPCItemDesc_4.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.OPCItemDesc_4.Location = New System.Drawing.Point(6, 173)
+        Me.OPCItemDesc_4.MaxLength = 0
+        Me.OPCItemDesc_4.Name = "OPCItemDesc_4"
+        Me.OPCItemDesc_4.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.OPCItemDesc_4.Size = New System.Drawing.Size(185, 20)
+        Me.OPCItemDesc_4.TabIndex = 114
+        Me.OPCItemDesc_4.Text = "OPCItemDesc_4"
+        Me.ToolTip1.SetToolTip(Me.OPCItemDesc_4, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
+        '
+        'OPCItemDesc_5
+        '
+        Me.OPCItemDesc_5.AcceptsReturn = True
+        Me.OPCItemDesc_5.BackColor = System.Drawing.SystemColors.Window
+        Me.OPCItemDesc_5.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.OPCItemDesc_5.Enabled = False
+        Me.OPCItemDesc_5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OPCItemDesc_5.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.OPCItemDesc_5.Location = New System.Drawing.Point(6, 202)
+        Me.OPCItemDesc_5.MaxLength = 0
+        Me.OPCItemDesc_5.Name = "OPCItemDesc_5"
+        Me.OPCItemDesc_5.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.OPCItemDesc_5.Size = New System.Drawing.Size(185, 20)
+        Me.OPCItemDesc_5.TabIndex = 115
+        Me.OPCItemDesc_5.Text = "OPCItemDesc_5"
+        Me.ToolTip1.SetToolTip(Me.OPCItemDesc_5, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
+        '
+        'OPCItemDesc_7
+        '
+        Me.OPCItemDesc_7.AcceptsReturn = True
+        Me.OPCItemDesc_7.BackColor = System.Drawing.SystemColors.Window
+        Me.OPCItemDesc_7.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.OPCItemDesc_7.Enabled = False
+        Me.OPCItemDesc_7.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OPCItemDesc_7.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.OPCItemDesc_7.Location = New System.Drawing.Point(6, 260)
+        Me.OPCItemDesc_7.MaxLength = 0
+        Me.OPCItemDesc_7.Name = "OPCItemDesc_7"
+        Me.OPCItemDesc_7.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.OPCItemDesc_7.Size = New System.Drawing.Size(185, 20)
+        Me.OPCItemDesc_7.TabIndex = 117
+        Me.OPCItemDesc_7.Text = "OPCItemDesc_7"
+        Me.ToolTip1.SetToolTip(Me.OPCItemDesc_7, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
+        '
+        'OPCItemDesc_8
+        '
+        Me.OPCItemDesc_8.AcceptsReturn = True
+        Me.OPCItemDesc_8.BackColor = System.Drawing.SystemColors.Window
+        Me.OPCItemDesc_8.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.OPCItemDesc_8.Enabled = False
+        Me.OPCItemDesc_8.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OPCItemDesc_8.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.OPCItemDesc_8.Location = New System.Drawing.Point(6, 289)
+        Me.OPCItemDesc_8.MaxLength = 0
+        Me.OPCItemDesc_8.Name = "OPCItemDesc_8"
+        Me.OPCItemDesc_8.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.OPCItemDesc_8.Size = New System.Drawing.Size(185, 20)
+        Me.OPCItemDesc_8.TabIndex = 118
+        Me.OPCItemDesc_8.Text = "OPCItemDesc_8"
+        Me.ToolTip1.SetToolTip(Me.OPCItemDesc_8, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
+        '
+        'OPCItemDesc_9
+        '
+        Me.OPCItemDesc_9.AcceptsReturn = True
+        Me.OPCItemDesc_9.BackColor = System.Drawing.SystemColors.Window
+        Me.OPCItemDesc_9.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.OPCItemDesc_9.Enabled = False
+        Me.OPCItemDesc_9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OPCItemDesc_9.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.OPCItemDesc_9.Location = New System.Drawing.Point(6, 318)
+        Me.OPCItemDesc_9.MaxLength = 0
+        Me.OPCItemDesc_9.Name = "OPCItemDesc_9"
+        Me.OPCItemDesc_9.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.OPCItemDesc_9.Size = New System.Drawing.Size(185, 20)
+        Me.OPCItemDesc_9.TabIndex = 119
+        Me.OPCItemDesc_9.Text = "OPCItemDesc_9"
+        Me.ToolTip1.SetToolTip(Me.OPCItemDesc_9, "Enter an OPC Item name in the form of ServerBranch.ServerItem (i.e. Channel1.Devi" &
+        "ce1.R0, [PLCSHORTCUT]Tagname)")
         '
         'OPCGroupFrame
         '
@@ -1655,20 +1855,6 @@ Public Class SimpleOPCInterface
         Me.Label1.Text = "Group Name"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
-        'ExitExample
-        '
-        Me.ExitExample.BackColor = System.Drawing.SystemColors.Control
-        Me.ExitExample.Cursor = System.Windows.Forms.Cursors.Default
-        Me.ExitExample.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ExitExample.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.ExitExample.Location = New System.Drawing.Point(642, 99)
-        Me.ExitExample.Name = "ExitExample"
-        Me.ExitExample.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.ExitExample.Size = New System.Drawing.Size(106, 29)
-        Me.ExitExample.TabIndex = 98
-        Me.ExitExample.Text = "Quit"
-        Me.ExitExample.UseVisualStyleBackColor = False
-        '
         'Frame1
         '
         Me.Frame1.BackColor = System.Drawing.SystemColors.Control
@@ -1704,6 +1890,17 @@ Public Class SimpleOPCInterface
         'Frame2
         '
         Me.Frame2.BackColor = System.Drawing.SystemColors.Control
+        Me.Frame2.Controls.Add(Me.Label2)
+        Me.Frame2.Controls.Add(Me.OPCItemDesc_6)
+        Me.Frame2.Controls.Add(Me.OPCItemDesc_0)
+        Me.Frame2.Controls.Add(Me.OPCItemDesc_1)
+        Me.Frame2.Controls.Add(Me.OPCItemDesc_2)
+        Me.Frame2.Controls.Add(Me.OPCItemDesc_3)
+        Me.Frame2.Controls.Add(Me.OPCItemDesc_4)
+        Me.Frame2.Controls.Add(Me.OPCItemDesc_5)
+        Me.Frame2.Controls.Add(Me.OPCItemDesc_7)
+        Me.Frame2.Controls.Add(Me.OPCItemDesc_8)
+        Me.Frame2.Controls.Add(Me.OPCItemDesc_9)
         Me.Frame2.Controls.Add(Me.OPCRemoveItems)
         Me.Frame2.Controls.Add(Me.OPCItemSyncReadButton_0)
         Me.Frame2.Controls.Add(Me.OPCItemActiveState_0)
@@ -1715,15 +1912,38 @@ Public Class SimpleOPCInterface
         Me.Frame2.Controls.Add(Me.Label8)
         Me.Frame2.Controls.Add(Me.Label7)
         Me.Frame2.Controls.Add(Me.Label4)
+        Me.Frame2.Controls.Add(Me.OPCItemName_6)
+        Me.Frame2.Controls.Add(Me.OPCItemName_0)
+        Me.Frame2.Controls.Add(Me.OPCItemName_1)
+        Me.Frame2.Controls.Add(Me.OPCItemName_2)
+        Me.Frame2.Controls.Add(Me.OPCItemName_3)
+        Me.Frame2.Controls.Add(Me.OPCItemName_4)
+        Me.Frame2.Controls.Add(Me.OPCItemName_5)
+        Me.Frame2.Controls.Add(Me.OPCItemName_7)
+        Me.Frame2.Controls.Add(Me.OPCItemName_8)
+        Me.Frame2.Controls.Add(Me.OPCItemName_9)
         Me.Frame2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Frame2.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Frame2.Location = New System.Drawing.Point(12, 203)
         Me.Frame2.Name = "Frame2"
         Me.Frame2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Frame2.Size = New System.Drawing.Size(736, 351)
+        Me.Frame2.Size = New System.Drawing.Size(926, 351)
         Me.Frame2.TabIndex = 111
         Me.Frame2.TabStop = False
         Me.Frame2.Text = "OPC Items"
+        '
+        'Label2
+        '
+        Me.Label2.BackColor = System.Drawing.SystemColors.Control
+        Me.Label2.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Label2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label2.Location = New System.Drawing.Point(19, 42)
+        Me.Label2.Name = "Label2"
+        Me.Label2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.Label2.Size = New System.Drawing.Size(146, 18)
+        Me.Label2.TabIndex = 120
+        Me.Label2.Text = "Enter OPC Item Description"
         '
         'OPCItemQuality_0
         '
@@ -1732,7 +1952,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemQuality_0.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemQuality_0.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemQuality_0.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemQuality_0.Location = New System.Drawing.Point(648, 62)
+        Me.OPCItemQuality_0.Location = New System.Drawing.Point(845, 62)
         Me.OPCItemQuality_0.MaxLength = 0
         Me.OPCItemQuality_0.Name = "OPCItemQuality_0"
         Me.OPCItemQuality_0.ReadOnly = True
@@ -1747,7 +1967,7 @@ Public Class SimpleOPCInterface
         Me.OPCItemValue_0.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.OPCItemValue_0.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OPCItemValue_0.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.OPCItemValue_0.Location = New System.Drawing.Point(200, 62)
+        Me.OPCItemValue_0.Location = New System.Drawing.Point(397, 62)
         Me.OPCItemValue_0.MaxLength = 0
         Me.OPCItemValue_0.Name = "OPCItemValue_0"
         Me.OPCItemValue_0.ReadOnly = True
@@ -1761,7 +1981,7 @@ Public Class SimpleOPCInterface
         Me.Label9.Cursor = System.Windows.Forms.Cursors.Default
         Me.Label9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label9.Location = New System.Drawing.Point(304, 48)
+        Me.Label9.Location = New System.Drawing.Point(507, 43)
         Me.Label9.Name = "Label9"
         Me.Label9.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label9.Size = New System.Drawing.Size(81, 17)
@@ -1774,7 +1994,7 @@ Public Class SimpleOPCInterface
         Me.Label8.Cursor = System.Windows.Forms.Cursors.Default
         Me.Label8.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label8.Location = New System.Drawing.Point(648, 48)
+        Me.Label8.Location = New System.Drawing.Point(842, 42)
         Me.Label8.Name = "Label8"
         Me.Label8.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label8.Size = New System.Drawing.Size(64, 17)
@@ -1787,7 +2007,7 @@ Public Class SimpleOPCInterface
         Me.Label7.Cursor = System.Windows.Forms.Cursors.Default
         Me.Label7.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label7.Location = New System.Drawing.Point(200, 48)
+        Me.Label7.Location = New System.Drawing.Point(403, 43)
         Me.Label7.Name = "Label7"
         Me.Label7.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label7.Size = New System.Drawing.Size(89, 17)
@@ -1800,7 +2020,7 @@ Public Class SimpleOPCInterface
         Me.Label4.Cursor = System.Windows.Forms.Cursors.Default
         Me.Label4.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label4.Location = New System.Drawing.Point(8, 48)
+        Me.Label4.Location = New System.Drawing.Point(211, 43)
         Me.Label4.Name = "Label4"
         Me.Label4.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label4.Size = New System.Drawing.Size(121, 17)
@@ -1810,7 +2030,7 @@ Public Class SimpleOPCInterface
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(642, 67)
+        Me.Button1.Location = New System.Drawing.Point(717, 35)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(106, 29)
         Me.Button1.TabIndex = 166
@@ -1820,7 +2040,7 @@ Public Class SimpleOPCInterface
         'SimpleOPCInterface
         '
         Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
-        Me.ClientSize = New System.Drawing.Size(763, 566)
+        Me.ClientSize = New System.Drawing.Size(953, 566)
         Me.ControlBox = False
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.OPCItemSyncReadButton_9)
@@ -1878,23 +2098,12 @@ Public Class SimpleOPCInterface
         Me.Controls.Add(Me.OPCItemValue_2)
         Me.Controls.Add(Me.OPCItemValue_1)
         Me.Controls.Add(Me.OPCAddItems)
-        Me.Controls.Add(Me.OPCItemName_9)
-        Me.Controls.Add(Me.OPCItemName_8)
-        Me.Controls.Add(Me.OPCItemName_7)
-        Me.Controls.Add(Me.OPCItemName_6)
-        Me.Controls.Add(Me.OPCItemName_5)
-        Me.Controls.Add(Me.OPCItemName_4)
-        Me.Controls.Add(Me.OPCItemName_3)
-        Me.Controls.Add(Me.OPCItemName_2)
-        Me.Controls.Add(Me.OPCItemName_1)
-        Me.Controls.Add(Me.OPCItemName_0)
         Me.Controls.Add(Me.ListOPCServers)
         Me.Controls.Add(Me.OPCGroupFrame)
-        Me.Controls.Add(Me.ExitExample)
         Me.Controls.Add(Me.Frame1)
         Me.Controls.Add(Me.Frame2)
         Me.Name = "SimpleOPCInterface"
-        Me.Text = "VS2010 SimpleOPCInterface V1.0.0.3"
+        Me.Text = "SimpleOPCInterface [SETUP]"
         Me.OPCGroupFrame.ResumeLayout(False)
         Me.OPCGroupFrame.PerformLayout()
         Me.Frame1.ResumeLayout(False)
@@ -2982,7 +3191,7 @@ Public Class SimpleOPCInterface
     ' from the group, then the group from the server and finally disconnect
     ' from the server.  This is also why each of the subroutines had the test
     ' to see if the Object to be removed was already set to 'Nothing'.
-    Public Sub ExitExample_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitExample.Click
+    Public Sub ExitExample_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
         ExitApp()
 
@@ -3003,6 +3212,10 @@ Public Class SimpleOPCInterface
     End Sub
 
     Private Sub OPCItemName_0_TextChanged(sender As Object, e As EventArgs) Handles OPCItemName_0.TextChanged
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
 
     End Sub
 End Class
