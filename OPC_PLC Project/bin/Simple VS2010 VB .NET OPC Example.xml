@@ -2,7 +2,7 @@
 <doc>
 <assembly>
 <name>
-Simple OPC Example
+Simple VS2010 VB .NET OPC Example
 </name>
 </assembly>
 <members>
@@ -20,11 +20,6 @@ Simple OPC Example
 <summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
-</summary>
-</member>
-<member name="P:Simple_VS2010_VB_.NET_OPC_Example.My.Resources.Resources.Logo">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 </members>
