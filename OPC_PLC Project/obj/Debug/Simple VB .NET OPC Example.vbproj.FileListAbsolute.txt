@@ -31,3 +31,8 @@ C:\Users\usbanuelma\Source\Repos\OPC_APP\OPC_PLC Project\obj\Debug\Simple VB .NE
 C:\Users\usbanuelma\Source\Repos\OPC_APP\OPC_PLC Project\obj\Debug\Simple VS2010 VB .NET OPC Example.exe
 C:\Users\usbanuelma\Source\Repos\OPC_APP\OPC_PLC Project\obj\Debug\Simple VS2010 VB .NET OPC Example.xml
 C:\Users\usbanuelma\Source\Repos\OPC_APP\OPC_PLC Project\obj\Debug\Simple VS2010 VB .NET OPC Example.pdb
+C:\Users\usbanuelma\Source\Repos\martinrban2468\OPC_APP\OPC_PLC Project\obj\Debug\Interop.OPCAutomation.dll
+C:\Users\usbanuelma\Source\Repos\martinrban2468\OPC_APP\OPC_PLC Project\obj\Debug\Simple VB .NET OPC Example.vbproj.ResolveComReference.cache
+C:\Users\usbanuelma\Source\Repos\martinrban2468\OPC_APP\OPC_PLC Project\obj\Debug\Simple VS2010 VB .NET OPC Example.exe
+C:\Users\usbanuelma\Source\Repos\martinrban2468\OPC_APP\OPC_PLC Project\obj\Debug\Simple VS2010 VB .NET OPC Example.xml
+C:\Users\usbanuelma\Source\Repos\martinrban2468\OPC_APP\OPC_PLC Project\obj\Debug\Simple VS2010 VB .NET OPC Example.pdb
