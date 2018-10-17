@@ -137,6 +137,7 @@ Public Class SimpleOPCInterface
     Public WithEvents Label4 As System.Windows.Forms.Label
     <System.Diagnostics.DebuggerStepThrough()> Public Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SimpleOPCInterface))
         Me.OPCItemSyncReadButton_9 = New System.Windows.Forms.Button()
         Me.OPCItemSyncReadButton_8 = New System.Windows.Forms.Button()
         Me.OPCItemSyncReadButton_7 = New System.Windows.Forms.Button()
@@ -2102,6 +2103,7 @@ Public Class SimpleOPCInterface
         Me.Controls.Add(Me.OPCGroupFrame)
         Me.Controls.Add(Me.Frame1)
         Me.Controls.Add(Me.Frame2)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "SimpleOPCInterface"
         Me.Text = "SimpleOPCInterface [SETUP]"
         Me.OPCGroupFrame.ResumeLayout(False)

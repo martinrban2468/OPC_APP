@@ -22,12 +22,7 @@ Simple OPC Example
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
-<member name="P:Simple_VS2010_VB_.NET_OPC_Example.My.Resources.Resources.kepware">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:Simple_VS2010_VB_.NET_OPC_Example.My.Resources.Resources.Kepware_Logo">
+<member name="P:Simple_VS2010_VB_.NET_OPC_Example.My.Resources.Resources.Logo">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
