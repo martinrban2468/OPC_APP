@@ -7,9 +7,9 @@
     <ProjectGuid>{20E13EAF-679E-4835-A937-7C6553F461A1}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon>MMan.ico</ApplicationIcon>
+    <ApplicationIcon />
     <AssemblyKeyContainerName />
-    <AssemblyName>Simple OPC Example</AssemblyName>
+    <AssemblyName>Simple VS2010 VB .NET OPC Example</AssemblyName>
     <AssemblyOriginatorKeyFile />
     <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
     <DefaultClientScript>JScript</DefaultClientScript>
@@ -28,7 +28,6 @@
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <OldToolsVersion>0.0</OldToolsVersion>
     <UpgradeBackupLocation />
-    <IsWebBootstrapper>true</IsWebBootstrapper>
     <PublishUrl>http://localhost/Simple VB .NET OPC Example/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
@@ -41,12 +40,13 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>Simple OPC Example.xml</DocumentationFile>
+    <DocumentationFile>Simple VS2010 VB .NET OPC Example.xml</DocumentationFile>
     <BaseAddress>285212672</BaseAddress>
     <ConfigurationOverrideFile />
     <DefineConstants />
@@ -64,7 +64,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>Simple OPC Example.xml</DocumentationFile>
+    <DocumentationFile>Simple VS2010 VB .NET OPC Example.xml</DocumentationFile>
     <BaseAddress>285212672</BaseAddress>
     <ConfigurationOverrideFile />
     <DefineConstants />
@@ -80,9 +80,6 @@
     <DebugType>none</DebugType>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
-  </PropertyGroup>
   <ItemGroup>
     <COMReference Include="OPCAutomation">
       <Guid>{28E68F91-8D75-11D1-8DC3-3C302A000000}</Guid>
@@ -91,14 +88,12 @@
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
     </COMReference>
-    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
     <Reference Include="System.Data">
       <Name>System.Data</Name>
     </Reference>
-    <Reference Include="System.Design" />
     <Reference Include="System.Drawing">
       <Name>System.Drawing</Name>
     </Reference>
@@ -162,10 +157,7 @@
       <DependentUpon>Splash.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="MMan.ico" />
-    <None Include="Resources\Logo.bmp" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
@@ -184,7 +176,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="My Project\app.manifest" />
     <None Include="Resources\kepware.jpg" />
   </ItemGroup>
   <ItemGroup>
